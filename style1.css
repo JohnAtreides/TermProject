@@ -1,9 +1,9 @@
 header .row {
     background-repeat: repeat-x;
-    background-size: 60%;
-    background-position: 50% 100%;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
     background-image: url("images/summerBanner.jpg");
-    /* background-size: 0%;*/
 }
 #avocation {
     color: rgb(245, 88, 39);
@@ -13,7 +13,6 @@ header .row {
     font-size: 7vw;
     font-weight: 700;
     text-align: center;
-    padding-bottom: 10px;
     max-height: 200px;
 }
 
