@@ -1,9 +1,7 @@
 header .row {
-    border: 2px green solid;
     background-repeat: repeat-x;
     background-size: 60%;
-
-    background-position: 50% 70%;
+    background-position: 50% 100%;
     background-image: url("images/summerBanner.jpg");
     /* background-size: 0%;*/
 }
@@ -17,7 +15,6 @@ header .row {
     text-align: center;
     padding-bottom: 10px;
     max-height: 200px;
-    border: 2px gray solid;
 }
 
 #byMe {
