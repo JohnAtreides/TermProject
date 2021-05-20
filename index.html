@@ -1,52 +1,303 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html>
 
-	<head>
-		<meta charset="utf-8">
-		<title>Project</title>
-		<link rel="icon" href="images/bacon_icon.png">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-    	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" >
-    	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<head>
+    <title>Term Project</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="images/tab_fortnite.jpg">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
 
-		<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-    	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
-    	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
-		<link rel="stylesheet" href="style.css">
-	</head>
-	
-	<body>
-		<header>
-			<div class="container">
-				<div class="row">
-					<div class="col-1"> <br/> </div>
-					<div class="col-10" id=avocation>1st -> 4th June Project</div>
-					<div class="col-1" id=byMe>  By Sam<span style="color: rgb(245, 82, 34);">.</span> </div>
-				</div>
-			</div>
-		</header>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
 
-		<div class="navbar">
-            <a class="active" href="#"><i class="fa fa-fw fa-home"></i> Home</a>
-            <a href="waterRocket.html"><i class="fa fa-fw fa-rocket"></i> Poject-1</a>
-            <a href="CV/cv.html"><i class="fa fas fa-key"></i> Project-2</a>
-  			<a href="snake.html"><i class="fa fa-fw fa-gamepad"></i> Snake</a>
-  			<a href="mailto:wie.gilbert.grape@gmail.com"><i class="fa fa-fw fa-envelope"></i> Contact</a>
-		</div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Lato" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+</head>
+    
+<body data-spy="scroll" data-target=".navbar" data-offset="60">
+
+    <nav class="navbar navbar-expand-md navbar-dark sticky-top">
+        <a class="navbar-brand" href="#"></a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar">
+                <i class="fas fa-bars fa-lg"></i>
+        </button>
         
-		<div class="section1">
-			<div class="centerer">
-                <p>
-                    Hi ! In one month, you'll be in holidays.<br><br>
-                    We will have 4 days together : from Tuesday to Friday. Therefore, let's plan something !<br>
-                    I have some projects that might interest you. I'm gonna put then under, so you can choose witch one you would like to experience.
-                </p>
+        <div class="collapse navbar-collapse justify-content-center" id="myNavbar">
+            <ul class="nav nav-pills navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="#toptop">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#rodleyProject">Rodley Reserve</a></li>
+                <li class="nav-item"><a class="nav-link" href="#forniteProject">Fortnite Chest</a></li>
+                <li class="nav-item"><a class="nav-link" href="#harewoodHouseProject">Harewood House</a></li>
+                <li class="nav-item"><a class="nav-link" href="#coinBagProject">Pirate Coin-Bag</a></li>
+                <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+                <li class="nav-item"><a class="nav-link" href="#recommandations">Recommandations</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <section id="toptop" class="container-fluid">
+        <div class="col-xs-8 col-md-4 banner-top">
+            <h1><br>Holidays Project</h1>
+        </div>
+    </section>
+
+    <div class="introText">
+        <p>
+            In 2 weeks, you are in holidays. What would you like to do ?<br>
+            I got some propositions below. Have a look and write what you like on the board.<br>
+            One activity per day !<br>
+            If you have ideas of yours that are not on my website, tell me the next day :)
+        </p> 
+    </div>
+
+    <section id="rodleyProject">
+        <div class="red-divider"></div>
+        <div class="heading">
+            <h2>Rodley Nature Reserve</h2>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-9">
+                    <figure>
+                        <img src="images/rodleyNatureReserve/rodleyNatureReserve1.jpg"
+                            style="border: 2px solid black"
+                            alt="birds pictures">
+                        <figcaption style="text-align: center">Cormoran</figcaption>
+                    </figure>
+                </div>
+
+                <div class="col-sm-3">
+                    <p id="RodleyText">
+                        <br>
+                        Wanna hang to the Rodley Nature Reserve, and look for magnigicient birds ?!<br>
+                        There are many birds to watch, I have a monocular, it could be fun !!
+                    </p>
+                </div>
             </div>
-		</div>
+        </div>
+        <div class="red-divider"></div>
+    </section>
 
-		
+    <section id="forniteProject">
+        <div class="container">
+            <div class="white-divider"></div>
+            <div class="heading">
+                <h2>Fortnite Chest</h2>
+            </div>
+            <div class="row">
+                <div class="col-sm-6">
+                    <p id="fortniteText">
+                        <br><br>
+                        Hey ! <br>
+                        Do you want to build a chest, fortnite-like ?! :D <br>
+                        We also could add a lock system !!<br>
+                    </p>
+                </div>
+                <div class="col-sm-6">
+                    <figure>
+                        <a href="https://www.youtube.com/watch?v=DyyHTZmVgog" target="_blank">
+                            <img src="images/fortniteChestphotoshop.png"
+                                style="border: 2px solid black"
+                                alt="Fortnite Chest Vidéo mini">
+                        </a>
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </section>
 
-			
+    <section id="harewoodHouseProject">
+        <div class="container">
+            <div class="red-divider"></div>
+            <div class="heading">
+                <h2>Harewood House</h2>
+            </div>
+            <div class="row">
+                <div class="col-sm-9">
+                    <div class="object-shelf-masonry" style="position: relative; height: 900px;">
+                        <div class="farm-Animal-Pic" style="position: absolute; left: 0px; top: 0px;">
+                            <a href="https://harewood.org/explore/bird-garden/bird/penguins/">
+                                <div class="object-thumbnail">
+                                    <span data-picture="" data-alt="Harewood House has penguins and other bird spieces">
+                                        <span data-src="https://harewood.org/wp-content/uploads/2014/02/Humboldt-Penguins-credit-Harewood-House-Trust-82-70x70.jpg"></span>
+                                        <span data-src="https://harewood.org/wp-content/uploads/2014/02/Humboldt-Penguins-credit-Harewood-House-Trust-82-177x280.jpg" data-media="(min-width: 116.82px)"></span>
+                                        <span data-src="https://harewood.org/wp-content/uploads/2014/02/Humboldt-Penguins-credit-Harewood-House-Trust-82-254x400.jpg" data-media="(min-width: 167.64px)">
+                                            <img alt="Harewood House has penguins and other bird spieces" src="https://harewood.org/wp-content/uploads/2014/02/Humboldt-Penguins-credit-Harewood-House-Trust-82-254x400.jpg">
+                                        </span>
+                                        <noscript>
+                                            <img src="https://harewood.org/wp-content/uploads/2014/02/Humboldt-Penguins-credit-Harewood-House-Trust-82-254x400.jpg" alt="Harewood House has penguins and other bird spieces">
+                                        </noscript>
+                                    </span> 
+                                    <p>Humboldt Penguins</p>
+                                </div>
+                            </a>
+                        </div>
+                        
+                        <div class="farm-Animal-Pic" style="position: relative; left: 260px; top: 0px;">
+                            <a href="https://harewood.org/explore/bird-garden/bird/flamingos/">
+                                <div class="object-thumbnail">
+                                    <span data-picture="" data-alt="Harewood House near Leeds has flamingos">
+                                        <span data-src="https://harewood.org/wp-content/uploads/2014/03/flamingos-credit-Peter-Stubbs-70x70.jpg"></span>
+                                        <span data-src="https://harewood.org/wp-content/uploads/2014/03/flamingos-credit-Peter-Stubbs-280x230.jpg" data-media="(min-width: 184.8px)"></span>
+                                        <span data-src="https://harewood.org/wp-content/uploads/2014/03/flamingos-credit-Peter-Stubbs-400x329.jpg" data-media="(min-width: 264px)">
+                                            <img alt="Harewood House near Leeds has flamingos" src="https://harewood.org/wp-content/uploads/2014/03/flamingos-credit-Peter-Stubbs-400x329.jpg">
+                                        </span>
+                                        <noscript>
+                                            <img src="https://harewood.org/wp-content/uploads/2014/03/flamingos-credit-Peter-Stubbs-400x329.jpg" alt="Harewood House near Leeds has flamingos">
+                                        </noscript>
+                                    </span>
+                                    <p>Chilean Flamingos</p>
+                                </div>
+                            </a>                    
+                        </div>
+                        
+                        <div class="farm-Animal-Pic" style="position: relative; left: 670px; top: 0px;">
+                            <a href="https://harewood.org/explore/bird-garden/bird/burrowing-owl/">
+                                <div class="object-thumbnail">
+                                    <span data-picture="" data-alt="Birds from north and south america can be found at Harewood House in Yorkshire">
+                                        <span data-src="https://harewood.org/wp-content/uploads/2014/03/Burrowing-Owl-70x70.jpg"></span>
+                                        <span data-src="https://harewood.org/wp-content/uploads/2014/03/Burrowing-Owl-223x280.jpg" data-media="(min-width: 147.18px)"></span>
+                                        <span data-src="https://harewood.org/wp-content/uploads/2014/03/Burrowing-Owl-318x400.jpg" data-media="(min-width: 209.88px)"><img alt="Birds from north and south america can be found at Harewood House in Yorkshire" src="https://harewood.org/wp-content/uploads/2014/03/Burrowing-Owl-318x400.jpg"></span>
+                                        <noscript>
+                                            <img src="https://harewood.org/wp-content/uploads/2014/03/Burrowing-Owl-318x400.jpg" alt="Birds from north and south america can be found at Harewood House in Yorkshire">
+                                        </noscript>
+                                    </span>        
+                                    <p>Burrowing Owl</p>
+                                </div>
+                            </a>
+                        </div>
+                                    
+                        <div class="farm-Animal-Pic" style="position: absolute; left: 0px; top: 440px;">
+                            <a href="https://harewood.org/explore/bird-garden/bird/palm-cockatoo/">
+                                <div class="object-thumbnail">
+                                    <span data-picture="" data-alt="Visit Harewood House near Harrogate to see palm cockatoos">
+                                        <span data-src="https://harewood.org/wp-content/uploads/2016/03/Palm-Cockatoo-credit-Harewood-House-Trust-and-Peter-Stubbs-4-70x70.jpg"></span>
+                                        <span data-src="https://harewood.org/wp-content/uploads/2016/03/Palm-Cockatoo-credit-Harewood-House-Trust-and-Peter-Stubbs-4-240x280.jpg" data-media="(min-width: 158.4px)"></span>
+                                        <span data-src="https://harewood.org/wp-content/uploads/2016/03/Palm-Cockatoo-credit-Harewood-House-Trust-and-Peter-Stubbs-4-342x400.jpg" data-media="(min-width: 225.72px)"><img alt="Visit Harewood House near Harrogate to see palm cockatoos" src="https://harewood.org/wp-content/uploads/2016/03/Palm-Cockatoo-credit-Harewood-House-Trust-and-Peter-Stubbs-4-342x400.jpg"></span>
+                                        <noscript>
+                                            <img src="https://harewood.org/wp-content/uploads/2016/03/Palm-Cockatoo-credit-Harewood-House-Trust-and-Peter-Stubbs-4-342x400.jpg" alt="Visit Harewood House near Harrogate to see palm cockatoos">
+                                        </noscript>
+                                    </span>
+                                    <p>Palm Cockatoo</p>
+                                </div>
+                            </a>
+                        </div>
+                           
+                        <div class="farm-Animal-Pic" style="position: relative; left: 350px; top: -390px;">
+                            <a href="https://harewood.org/explore/bird-garden/bird/blue-gold-macaw/">
+                                <div class="object-thumbnail">
+                                    <span data-picture="" data-alt="Rare birds at Harewood House in Yorkshire">
+                                        <span data-src="https://harewood.org/wp-content/uploads/2014/03/blue_gold_macaw-70x70.jpg"></span>
+                                        <span data-src="https://harewood.org/wp-content/uploads/2014/03/blue_gold_macaw-218x280.jpg" data-media="(min-width: 143.88px)"></span>
+                                        <span data-src="https://harewood.org/wp-content/uploads/2014/03/blue_gold_macaw-312x400.jpg" data-media="(min-width: 205.92px)"><img alt="Rare birds at Harewood House in Yorkshire" src="https://harewood.org/wp-content/uploads/2014/03/blue_gold_macaw-312x400.jpg"></span>
+                                        <noscript>
+                                            <img src="https://harewood.org/wp-content/uploads/2014/03/blue_gold_macaw-312x400.jpg" alt="Rare birds at Harewood House in Yorkshire">
+                                        </noscript>
+                                    </span>
+                                    <p>Blue and Gold Macaw</p>
+                                </div>
+                            </a>
+                        </div>                       
+                        
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <p id="harewoodText">
+                        <br><br>
+                        In Harewood House, there are magnificent birds, penguins, but also lovely dears !! <br>
+                        There also a forest with a small bridge to cross by jumping on the rocks in water :D <br>
+                        <br>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-	</body>
+    <section id="coinBagProject">
+        <div class="container">
+            <div class="white-divider"></div>
+            <div class="heading">
+                <h2>Pirate Coin Bag</h2>
+            </div>
+
+            <div class="row">
+                <div class="col-md-4">
+                    <a href="https://mydaintydreams.com/making-a-pirate-drawstring-coin-bag-pouch-free-template/" target="_blank">
+                        <img class="img-thumbnail" src="https://i.pinimg.com/originals/09/87/42/098742b915f9caf694760ae0fcacb470.jpg" alt="coin bag">
+                    </a>
+                </div>
+
+                <div class="col-md-4">
+                    <a href="https://mydaintydreams.com/making-a-pirate-drawstring-coin-bag-pouch-free-template/" target="_blank">
+                        <img class="img-thumbnail" src="https://images.coplusk.net/project_images/131336/image/DSC01349.jpg">
+                    </a>
+                </div>
+
+                <div class="col-md-4">
+                    <a href="https://www.cutoutandkeep.net/projects/pirate-coin-bag" target="_blank">
+                        <img class="img-thumbnail" src="https://i.pinimg.com/originals/a6/38/f0/a638f05ba5fa3abaabe28808b2d86030.jpg" alt="coin bag">
+                    </a>
+                </div>
+            </div>
+
+            <div class="row">
+                    <p id="pirateText">
+                        <br>
+                        It is aaarrlways handy to have your coins gathered in the same place !
+                        Let's craft a Pirate coin bag !!
+                    </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="recommandations">
+        <div class="container">
+            <div class="red-divider"></div>
+            <div class="heading">
+                <h2>Recommandations</h2>
+            </div>
+            <div id="myCarousel" class="carousel slide text-center" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                </ol>
+
+                <div class="carousel-inner" role="listbox">
+                    <div class="carousel-item active">
+                        <h3>"42/20"</h3>
+                        <h4>Douglas Adams, Professional Galaxy Hitchhiker</h4>
+                    </div>
+                    <div class="carousel-item">
+                        <h3>"L'esprit le plus créatif que j'ai vu de toute ma vie..."</h3>
+                        <h4>Jack Dorsey, Twitter Founder and CEO</h4>
+                    </div>
+                    <div class="carousel-item">
+                        <h3>"Merci Sam de m'avoir appris à coder... Tout ça c'est grâce à toi!"</h3>
+                        <h4>Alan Turing, Feu-Kyoueni-Gma Founder and CEO</h4>
+                    </div>
+                </div>
+
+                <a class="carousel-control-prev" href="#myCarousel" data-slide="prev" role="button">
+                    <span class="fas fa-chevron-left fa-2x"></span>
+                </a>
+                <a class="carousel-control-next" href="#myCarousel" data-slide="next" role="button">
+                    <span class="fas fa-chevron-right fa-2x"></span>
+                </a>
+            </div>
+        </div>
+    </section>
+    
+    <footer class="text-center">
+        <a href="#about">
+            <span class="fas fa-chevron-up"></span>
+        </a>
+        <h5>© John-Adibou-Atréides.com</h5>
+    </footer>
+    
+</body>
 </html>

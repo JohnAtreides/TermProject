@@ -1,0 +1,289 @@
+/* GENERAL */
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-weight: bold;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+section {
+    padding: 45px 0 80px 0;
+}
+
+section .heading {
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+section .heading h2{
+    text-transform: uppercase;
+}
+
+.red-divider {
+    width: 100px;
+    height: 2px;
+    background: #d82c2e;
+    margin: 0 auto 20px;
+}
+
+.white-divider {
+    width: 100px;
+    height: 2px;
+    background: #fff;
+    margin: 0 auto 20px;
+}
+
+/* MENU */
+.navbar {
+    background-color: #d82c2e;
+    font-size: 12px;
+    border-bottom: 1px solid #fff;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.nav-pills .nav-link {
+    color: #fff !important;
+    text-align: right;
+}
+.nav-pills .nav-link.active,  .nav-pills .nav-link:hover {
+    color: #d82c2e !important;
+    background-color: #fff !important;
+}
+.navbar-toggler {
+    color: #fff !important;
+    border-style: none;
+}
+
+
+/* toptop */
+#toptop {
+    background-image: url("../images/summerBanner.jpg");
+    background-repeat: repeat-x;
+    background-size: contain;
+    background-position: top center;
+    background-attachment: fixed;
+    height: 300px;
+
+}
+
+.banner-top {
+    text-align: center;
+    margin: 0 auto;
+}
+
+#toptop h1 {
+    color: #e1170d;
+    text-transform: uppercase;
+}
+
+#toptop .heading h3 {
+    color: #000;
+}
+
+.introText{
+    min-height: 200px;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    margin: 40px 0 20px 0;
+    padding: 22px 50px;
+    border-radius: 3px;
+    transition: all 0.2s ease-in 0s;
+    font-size: 20px;
+}
+
+.introText:hover {
+    background: #fafafa;
+    color: #140c61;
+    text-decoration: none;
+}
+g
+/* RODLEY NATURE RESERVE PROJECT */
+#rodleyProject {
+    background: #fff;
+}
+
+#rodleyProject .heading h2 {
+    color: #d82c2e;
+}
+
+#RodleyText {
+    font-size: 30px;
+}
+
+/* FORTNITE PROJECT */
+#forniteProject {
+    background: #d82c2e;
+}
+
+#forniteProject .heading h2 {
+    color: #fff;   
+}
+
+#fortniteText {
+ font-size: 40px;
+}
+
+
+/* HAREWOOD HOUSE PROJECT */
+#harewoodHouseProject {
+    background: #fff;
+}
+
+#harewoodHouseProject .heading h2 {
+    color: #d82c2e;
+}
+
+.harewood-block {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px;
+    background: #ddd;
+    border-radius: 10px;
+    border: 2px solid #ccc;
+    margin-bottom: 20px;
+}
+
+.harewood-block h5 {
+    color: #888;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+.harewood-block .fas {
+    font-size: 35px;
+}
+
+.harewood-block h3 {
+    color: #d82c2e;
+}
+
+.harewood-block h4 {
+    margin-bottom: 20px;
+}
+
+.harewood-block p {
+    font-weight: bold;
+}
+
+.harewood-block .red-divider {
+    margin-bottom: 20px;
+}
+
+/* animals photos */
+#object-shelf-masonry {
+    margin: 15px;
+    padding: 10px;
+    border: 2px solid red;
+}
+
+
+#object-shelf-masonry::before {
+    content: " ";
+    box-sizing: border-box;
+}
+
+#farm-Animal-Pic {
+    position: relative;
+    display: block;
+}
+
+#harewoodText {
+    font-size: 20px;
+}
+
+
+
+
+/* PORTFOLIO */
+#coinBagProject {
+    background: #d82c2e;
+}
+#coinBagProject .heading h2 {
+    color: #fff;
+}
+#coinBagProject img {
+    width: 100%;
+    height: 100%;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%); /*(pour chrome)*/
+}
+#coinBagProject img:hover {
+     filter: none;
+    -webkit-filter: none; 
+}
+#coinBagProject .col-md-4 {
+    margin-bottom: 20px;
+}
+
+#pirateText {
+    font-size: 25px;
+    text-align: right;
+}
+/* RECOMMANDATIONS */
+#recommandations {
+    background: #fff;
+}
+#recommandations .heading h2 {
+    color: #d82c2e;
+}
+.fas.fa-chevron-left, .fas.fa-chevron-right {
+    background-image: none;
+    color: #d82c2e;
+}
+.carousel-indicators {
+    bottom: 0px;
+}
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    border: 1px solid #d82c2e;
+}
+.carousel-indicators li.active {
+    background-color: #d82c2e;
+}
+#myCarousel .carousel-item {
+    padding: 40px 30px;
+}
+#myCarousel .carousel-item h3 {
+    color: #d82c2e;
+    font-style: italic;
+}
+
+
+/* FOOTER */
+footer {
+    background: #333;
+    padding: 20px 0 40px;
+}
+footer .fas {
+    font-size:  25px;
+    margin: 20px;
+    color: #d82c2e;
+    height: 30px;
+}
+footer .fas:hover {
+    font-size:  27px;
+}
+footer h5 {
+    color: #fff;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'LuckiestGuy';
+    src: url('LuckiestGuy-Regular.ttf') format('truetype');
+}
