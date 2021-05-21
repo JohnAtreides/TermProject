@@ -48,7 +48,7 @@ section .heading h2{
     background-color: #d82c2e;
     font-size: 12px;
     border-bottom: 1px solid #fff;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     text-transform: uppercase;
     font-weight: bold;
 }
@@ -200,8 +200,8 @@ g
     display: block;
 }
 
-#harewoodText {
-    font-size: 20px;
+#harewoodText, #rocketText {
+    font-size: 25px;
 }
 
 
@@ -230,7 +230,6 @@ g
 
 #pirateText {
     font-size: 25px;
-    text-align: right;
 }
 /* RECOMMANDATIONS */
 #recommandations {
